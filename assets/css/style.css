@@ -1476,7 +1476,7 @@ input {
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #FFAB5B;
+  color: #0A3981;
   font-size: 14px;
   font-weight: 500;
 }
@@ -2617,7 +2617,7 @@ input {
     padding: 40px 10px;
   }
 }
-.features__item::after {
+/* .features__item::after {
   position: absolute;
   content: "";
   right: 25px;
@@ -2629,7 +2629,7 @@ input {
   width: 1px;
   height: 50%;
   background: #e5e5e5;
-}
+} */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .features__item::after {
     right: 0px;
@@ -2652,11 +2652,13 @@ input {
   line-height: 1.4;
   font-weight: 500;
   text-transform: uppercase;
+  color: #FFAB5B;
 }
 .features__content p {
   font-size: 13px;
   line-height: 1.4em;
   margin-bottom: 0;
+  color: #fff;
 }
 
 .features-2__lists {
@@ -5014,6 +5016,8 @@ input {
 .location-image img {
   vertical-align: middle;
   display: inline-block;
+  height: 250px;
+  object-fit: cover;
 }
 
 .location-item h6 {
@@ -7139,4 +7143,16 @@ p.checkout-coupon input[type=text]::placeholder {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.clr-1  { background-color: #d8edff; } /* Deep Navy */
+.clr-2  { background-color: #bddff9; } /* Navy */
+.clr-3  { background-color: #d8edff; } /* Dark Blue */
+.clr-4  { background-color: #bddff9; } /* Indigo Blue */
+.clr-5  { background-color: #d8edff; } /* Medium Blue */
+.clr-6  { background-color: #bddff9; } /* Soft Blue */
+.clr-7  { background-color: #d8edff; } /* Light Blue */
+.clr-8  { background-color: #bddff9; } /* Sky Blue */
+.clr-9  { background-color: #d8edff; } /* Powder Blue */
+.clr-10 { background-color: #bddff9; } /* Pale Blue */
+.clr-11 { background-color: #d8edff; } /* Very Light Blue */
 /*# sourceMappingURL=style.css.map */
