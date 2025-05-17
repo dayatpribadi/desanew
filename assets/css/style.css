@@ -7134,4 +7134,9 @@ p.checkout-coupon input[type=text]::placeholder {
   border-radius: 5px ;
 }
 
+[data-background] {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /*# sourceMappingURL=style.css.map */
