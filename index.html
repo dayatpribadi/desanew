@@ -1231,7 +1231,7 @@
                             </div>
                             <h6>Total Penduduk Desa</h6>
                             <div class="s-count-number">
-                                <span>809.765</span>
+                                <span class="count" data-target="809765">0</span>
                             </div>
                         </div>
                     </div>
@@ -1242,7 +1242,7 @@
                             </div>
                             <h6>Penduduk Laki-Laki</h6>
                             <div class="s-count-number">
-                                <span>406.755</span>
+                                <span class="count" data-target="406755">0</span>
                             </div>
                         </div>
                     </div>
@@ -1253,7 +1253,7 @@
                             </div>
                             <h6>Penduduk Perempuan</h6>
                             <div class="s-count-number">
-                                <span>403.010</span>
+                               <span class="count" data-target="403010">0</span>
                             </div>
                         </div>
                     </div>
@@ -2313,6 +2313,44 @@
             mirror: true // true: animasi juga aktif saat scroll ke atas
         });
     </script>
+
+    <script>
+        const counters = document.querySelectorAll('.count');
+        const duration = 2000; // durasi animasi (ms)
+        const delay = 5000;    // jeda sebelum animasi diulang (ms)
+
+        function startCounter(counter) {
+            const target = +counter.getAttribute('data-target');
+            let current = 0;
+
+            const increment = target / (duration / 20);
+
+            function updateCount() {
+            if (current < target) {
+                current += increment;
+                counter.innerText = Math.ceil(current).toLocaleString('id-ID');
+                setTimeout(updateCount, 20);
+            } else {
+                counter.innerText = target.toLocaleString('id-ID');
+
+                // Ulangi animasi setelah delay
+                setTimeout(() => {
+                counter.innerText = '0';
+                startCounter(counter);
+                }, delay);
+            }
+            }
+
+            updateCount();
+        }
+
+        // Jalankan semua counter
+        counters.forEach(counter => {
+            startCounter(counter);
+        });
+    </script>
+
+
 
    </body>
 </html>
