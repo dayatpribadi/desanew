@@ -7408,7 +7408,7 @@ p.checkout-coupon input[type=text]::placeholder {
 
 .header::before {
   content: "";
-  background: url('../img/bg/pattern2.png') no-repeat;
+  background: url('../img/bg/pd.png') no-repeat;
   background-size: cover;
   opacity: 0.3;
   position: absolute;
@@ -7428,7 +7428,7 @@ p.checkout-coupon input[type=text]::placeholder {
 
 .fotter-area::before {
   content: "";
-  background: url('../img/bg/pattern2.png') no-repeat;
+  background: url('../img/bg/dr4.png') no-repeat;
   background-size: cover;
   opacity: 0.3;
   position: absolute;
