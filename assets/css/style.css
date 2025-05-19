@@ -7399,4 +7399,46 @@ p.checkout-coupon input[type=text]::placeholder {
 }
 
 
+.header {
+  /* background: linear-gradient(90deg, #0A3981 0%, #0A3981 25%, #7798BF 50%, #0A3981 75%, #0A3981 100%); */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.header::before {
+  content: "";
+  background: url('../img/bg/pattern2.png') no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.fotter-area {
+  /* background: linear-gradient(130deg, #0A3981 0%, #0A3981 25%, #7798BF 50%, #0A3981 75%, #0A3981 100%); */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.fotter-area::before {
+  content: "";
+  background: url('../img/bg/pattern2.png') no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+
+
 /*# sourceMappingURL=style.css.map */
