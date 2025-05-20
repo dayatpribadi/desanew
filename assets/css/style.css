@@ -1655,7 +1655,7 @@ input {
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  z-index: 11;
+  z-index: 999;
   border-top: 2px solid #FFAB5B;
   padding: 35px 25px;
   padding-top: 27px;
@@ -7402,7 +7402,6 @@ p.checkout-coupon input[type=text]::placeholder {
 .header {
   /* background: linear-gradient(90deg, #0A3981 0%, #0A3981 25%, #7798BF 50%, #0A3981 75%, #0A3981 100%); */
   position: relative;
-  z-index: 1;
   overflow: hidden;
 }
 
@@ -7416,13 +7415,11 @@ p.checkout-coupon input[type=text]::placeholder {
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: 0;
 }
 
 .fotter-area {
   /* background: linear-gradient(130deg, #0A3981 0%, #0A3981 25%, #7798BF 50%, #0A3981 75%, #0A3981 100%); */
   position: relative;
-  z-index: 1;
   overflow: hidden;
 }
 
@@ -7436,7 +7433,11 @@ p.checkout-coupon input[type=text]::placeholder {
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: 0;
+}
+
+
+.all-content {
+  z-index: 0 !important;
 }
 
 
