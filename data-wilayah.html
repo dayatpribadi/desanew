@@ -27,11 +27,6 @@
 
    </head>
    <body>
-      <!--[if lte IE 9]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-      <![endif]-->
-
-
     <!-- preloader start -->
     <div id="loading">
         <div id="loading-center">
@@ -69,6 +64,7 @@
                                         <li><a href="tppkk.html">TP-PKK</a></li>
                                         <li><a href="kppdes.html">Kopdes Merah Putih</a></li>
                                         <li><a href="bpd.html">Badan Permusyawaratan Desa</a></li>
+                                        <li><a href="peta-sebaran.html">Peta Sebaran</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -111,6 +107,7 @@
                                             <option>TP-PKK</option>
                                             <option>Kopdes Merah Putih</option>
                                             <option>Badan Permusyawaratan Desa</option>
+                                            <option>Peta Sebaran</option>
                                         </select>
                                     </div>
                                 </form>
@@ -119,10 +116,10 @@
                         <div class="col-xl-4 col-lg-5 col-md-8 col-sm-8">
                             <div class="header-action">
                                 <div class="block-userlink">
-                                    <a class="icon-link" href="#">
+                                    <a class="icon-link" href="#" type="button" data-bs-toggle="modal" data-bs-target="#productModalId">
                                     <i class="fal fa-user-lock"></i>
                                     <span class="text">
-                                    <span class="sub">Login </span>
+                                    <span class="sub"> Login</span>
                                     Dashboard </span>
                                     </a>
                                 </div>
@@ -134,183 +131,13 @@
                                     Website </span>
                                     </a>
                                 </div>
-                                <div class="block-cart action">
-                                    <a class="icon-link" href="#">
+                                <div class="block-userlink">
+                                    <a class="icon-link" href="#" type="button" data-bs-toggle="modal" data-bs-target="#infoId">
                                     <i class="fal fa-bell-exclamation"></i>
                                     <span class="text">
                                     <span class="sub">Info:</span>
                                     Di Kantor </span>
                                     </a>
-                                    <div class="cart">
-                                        <div class="cart__mini">
-                                            <div class="faq-content pt-0">
-                                                <div class="accordion" id="accordionExample1">
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="headingOne">
-                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                                                Kehadiran di Kantor Desa
-                                                            </button>
-                                                        </h2>
-                                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                            <div class="accordion-body">
-                                                                <div class="product__sm">
-                                                                    <ul>
-                                                                        <li class="product__sm-item d-flex align-items-center">
-                                                                            <div class="product__sm-thumb mr-20">
-                                                                                <a href="#">
-                                                                                    <img src="assets/img/ts-img/user1.avif" alt="">
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="product__sm-content">
-                                                                                <h5 class="product__sm-title">
-                                                                                    <a href="#">Nama Kepala Desa</a>
-                                                                                </h5>
-                                                                                <div class="product__sm-price">
-                                                                                    <span class="price">Kepala Desa</span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li class="product__sm-item d-flex align-items-center">
-                                                                            <div class="product__sm-thumb mr-20">
-                                                                                <a href="#">
-                                                                                    <img src="assets/img/ts-img/user2.avif" alt="">
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="product__sm-content">
-                                                                                <h5 class="product__sm-title">
-                                                                                    <a href="#">Nama Aparatur</a>
-                                                                                </h5>
-                                                                                <div class="product__sm-price">
-                                                                                    <span class="price">Jabatan</span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li class="product__sm-item d-flex align-items-center">
-                                                                            <div class="product__sm-thumb mr-20">
-                                                                                <a href="#">
-                                                                                    <img src="assets/img/ts-img/user5.avif" alt="">
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="product__sm-content">
-                                                                                <h5 class="product__sm-title">
-                                                                                    <a href="#">Nama Aparatur</a>
-                                                                                </h5>
-                                                                                <div class="product__sm-price">
-                                                                                    <span class="price">Jabatan</span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li class="product__sm-item d-flex align-items-center">
-                                                                            <div class="product__sm-thumb mr-20">
-                                                                                <a href="#">
-                                                                                    <img src="assets/img/ts-img/user2.avif" alt="">
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="product__sm-content">
-                                                                                <h5 class="product__sm-title">
-                                                                                    <a href="#">Nama Aparatur</a>
-                                                                                </h5>
-                                                                                <div class="product__sm-price">
-                                                                                    <span class="price">Jabatan</span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li class="product__sm-item d-flex align-items-center">
-                                                                            <div class="product__sm-thumb mr-20">
-                                                                                <a href="#">
-                                                                                    <img src="assets/img/ts-img/user3.avif" alt="">
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="product__sm-content">
-                                                                                <h5 class="product__sm-title">
-                                                                                    <a href="#">Nama Aparatur</a>
-                                                                                </h5>
-                                                                                <div class="product__sm-price">
-                                                                                    <span class="price">Jabatan</span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li class="product__sm-item d-flex align-items-center">
-                                                                            <div class="product__sm-thumb mr-20">
-                                                                                <a href="#">
-                                                                                    <img src="assets/img/ts-img/user4.avif" alt="">
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="product__sm-content">
-                                                                                <h5 class="product__sm-title">
-                                                                                    <a href="#">Nama Aparatur</a>
-                                                                                </h5>
-                                                                                <div class="product__sm-price">
-                                                                                    <span class="price">Jabatan</span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li class="product__sm-item d-flex align-items-center">
-                                                                            <div class="product__sm-thumb mr-20">
-                                                                                <a href="#">
-                                                                                    <img src="assets/img/ts-img/user5.avif" alt="">
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="product__sm-content">
-                                                                                <h5 class="product__sm-title">
-                                                                                    <a href="#">Nama Aparatur</a>
-                                                                                </h5>
-                                                                                <div class="product__sm-price">
-                                                                                    <span class="price">Jabatan</span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>    
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="accordion-item">
-                                                        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                            <div class="accordion-body">
-                                                                <img src="assets/img/ts-img/1.jpg" style="height: 300px;" alt="">
-                                                                <div class="product__desc-info">
-                                                                    <ul>
-                                                                    <li>
-                                                                        <h6>Desa</h6>
-                                                                        <span>Indralaya Mulya</span>
-                                                                    </li>
-                                                                    <li>
-                                                                        <h6>Kecamatan</h6>
-                                                                        <span>Indralaya</span>
-                                                                    </li>
-                                                                    <li>
-                                                                        <h6>Kabupaten</h6>
-                                                                        <span>Ogan Ilir</span>
-                                                                    </li>
-                                                                    <li>
-                                                                        <h6>Provinsi</h6>
-                                                                        <span>Sumatera Selatan</span>
-                                                                    </li>
-                                                                    <li>
-                                                                        <h6>Kode Pos</h6>
-                                                                        <span>30662</span>
-                                                                    </li>
-                                                                    <li>
-                                                                        <h6>Alamat Kantor</h6>
-                                                                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, reiciendis</span>
-                                                                    </li>
-                                                                    <li>
-                                                                        <h6>Email</h6>
-                                                                        <span>emaildesa@oganilirkab.go.id</span>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#" type="button">Titik Lokasi</a>
-                                                                    </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -321,6 +148,7 @@
         <div class="header__bottom d-none d-lg-block">
             <div class="container">
                 <div class="row">
+
                     <div class="col-3">
                         <div class="features__item d-flex ">
                             <div class="features__icon mr-20">
@@ -332,6 +160,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-9">
                         <div class="product-bs-slider">
                             <div class="product-slider2 swiper-container">
@@ -425,9 +254,11 @@
                 <li><a href="tppkk.html">TP-PKK</a></li>
                 <li><a href="kppdes.html">Kopdes Merah Putih</a></li>
                 <li><a href="bpd.html">Badan Permusyawaratan Desa</a></li>
+                <li><a href="peta-sebaran.html">Peta Sebaran</a></li>
             </ul>
         </nav>
     </div>
+
 
     <!-- offcanvas area start -->
     <div class="offcanvas__area">

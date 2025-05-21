@@ -22,6 +22,7 @@
       <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
       <link rel="stylesheet" href="assets/css/default.css">
       <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
       <!-- CSS -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 
@@ -287,8 +288,8 @@
         </div>
     </div>
     
-
-
+     
+    
     <div class="body-overlay"></div>
     <!-- offcanvas area end -->
     <main>
@@ -315,7 +316,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="page-banner-content text-center">
-                            <h4 class="breadcrumb-title">Jumlah dan Persentase Penduduk Berdasarkan Pendidikan</h4>
+                            <h4 class="breadcrumb-title">Data Penduduk Berdasarkan Wilayah Desa</h4>
                             <div class="breadcrumb-two">
                                 <nav>
                                    <nav class="breadcrumb-trail breadcrumbs">
@@ -324,7 +325,7 @@
                                             <a href="index.html"><span>Home</span></a>
                                          </li>
                                          <li class="trail-item">
-                                            <span>Jumlah dan Persentase Penduduk Berdasarkan Pendidikan</span>
+                                            <span>Data Penduduk Berdasarkan Wilayah Desa</span>
                                          </li>
                                       </ul>
                                    </nav> 
@@ -338,65 +339,56 @@
         <!-- page-banner-area-end -->
 
         <section class="topsell__area-2 pt-60 pb-60">
-            <div class="container my-4">
-                <div class="row mt-50">
+
+              <div class="container py-5">
+                <div class="row pb-30">
                     <div class="col-xl-12">
                         <div class="section__head d-flex justify-content-center mb-10">
                             <div class="section__title">
-                                 <h4 class="text-center fw-bold mb-4">Jumlah dan Persentase Penduduk Berdasarkan Pendidikan Dalam KK <br> Desa Senuro Timur, 2025</h4>   
+                                <h5 class="st-titile">Peta Sebaran</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row ">
-                    <div class="container my-5">
-                        <div class="table-responsive mb-50">
-                            <table class="table table-bordered table-hover table-sm align-middle text-center">
-                            <thead class="table-light">
-                                <tr>
-                                <th rowspan="2">No</th>
-                                <th rowspan="2">Kelompok</th>
-                                <th colspan="2">Jumlah</th>
-                                <th colspan="2">Laki-laki</th>
-                                <th colspan="2">Perempuan</th>
-                                </tr>
-                                <tr>
-                                <th>Jiwa</th>
-                                <th>%</th>
-                                <th>Jiwa</th>
-                                <th>%</th>
-                                <th>Jiwa</th>
-                                <th>%</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr><td>1</td><td class="text-start">TIDAK / BELUM SEKOLAH</td><td>44</td><td>3.46%</td><td>21</td><td>1.65%</td><td>23</td><td>1.81%</td></tr>
-                                <tr><td>2</td><td class="text-start">BELUM TAMAT SD/SEDERAJAT</td><td>24</td><td>1.89%</td><td>14</td><td>1.10%</td><td>10</td><td>0.79%</td></tr>
-                                <tr><td>3</td><td class="text-start">TAMAT SD / SEDERAJAT</td><td>167</td><td>13.15%</td><td>76</td><td>5.98%</td><td>91</td><td>7.17%</td></tr>
-                                <tr><td>4</td><td class="text-start">SLTP/SEDERAJAT</td><td>30</td><td>2.36%</td><td>14</td><td>1.10%</td><td>16</td><td>1.26%</td></tr>
-                                <tr><td>5</td><td class="text-start">SLTA / SEDERAJAT</td><td>55</td><td>4.33%</td><td>25</td><td>1.97%</td><td>30</td><td>2.36%</td></tr>
-                                <tr><td>6</td><td class="text-start">DIPLOMA I / II</td><td>2</td><td>0.16%</td><td>1</td><td>0.08%</td><td>1</td><td>0.08%</td></tr>
-                                <tr><td>7</td><td class="text-start">AKADEMI/ DIPLOMA III/S. MUDA</td><td>2</td><td>0.16%</td><td>0</td><td>0.00%</td><td>2</td><td>0.16%</td></tr>
-                                <tr><td>8</td><td class="text-start">DIPLOMA IV/ STRATA I</td><td>14</td><td>1.10%</td><td>7</td><td>0.55%</td><td>7</td><td>0.55%</td></tr>
-                                <tr><td>9</td><td class="text-start">STRATA II</td><td>1</td><td>0.08%</td><td>1</td><td>0.08%</td><td>0</td><td>0.00%</td></tr>
-                                <tr class="table-primary fw-bold">
-                                <td colspan="2">JUMLAH</td><td>339</td><td>26.69%</td><td>159</td><td>12.52%</td><td>180</td><td>14.17%</td>
-                                </tr>
-                                <tr class="table-warning fw-bold">
-                                <td colspan="2">BELUM MENGISI</td><td>931</td><td>73.31%</td><td>455</td><td>35.83%</td><td>476</td><td>37.48%</td>
-                                </tr>
-                                <tr class="table-success fw-bold">
-                                <td colspan="2">TOTAL</td><td>1.270</td><td>100.00%</td><td>614</td><td>48.35%</td><td>656</td><td>51.65%</td>
-                                </tr>
-                            </tbody>
-                            </table>
+                
+                <div class="card card-custom p-4 bg-white">
+                    <h4 class="mb-4">Informasi Desa</h4>
+                    <div class="row mb-3">
+                        <div class="col-md-4 label">Nama Desa</div>
+                        <div class="col-md-8 value">Desa Payakabung</div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4 label">Jumlah Penduduk</div>
+                        <div class="col-md-8 value">1200 Jiwa</div>
+                    </div>
+                    <!-- Tambahkan ini di dalam card Informasi Desa -->
+                    <div class="row mb-3 dropdown-kategori">
+                    <div class="col-md-4 label">Kategori</div>
+                    <div class="col-md-8">
+                        <div class="country-select">
+                        <select id="dropdownKategori">
+                            <option value="">Pilih Kategori</option>
+                            <option value="bantuan">Bantuan</option>
+                            <option value="pembangunan">Pembangunan</option>
+                        </select>
                         </div>
-                        <div id="chart-container" style="height: 500px;"></div>
+                        <div class="country-select mt-2">
+                        <select id="dropdownSubKategori" disabled>
+                            <option value="">Pilih Subkategori</option>
+                        </select>
+                        </div>
+                    </div>
                     </div>
 
-                    <p class="text-end mt-3"><small>Diperbarui: 14 Mei 2025 22:14:00</small></p>
+                    <div class="row mb-3">
+                        <div class="col-md-4 label">Sumber Data</div>
+                        <div class="col-md-8 value">Kementrian</div>
+                    </div>
                 </div>
+
+                <div id="map" class="mt-4"></div>
             </div>
+
         </section>
 
         <!-- featured-start -->
@@ -1262,64 +1254,65 @@
       <script src="assets/js/ajax-form.js"></script>
       <script src="assets/js/main.js"></script>
       <script src="https://code.highcharts.com/highcharts.js"></script>
-        <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+      <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+      <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
       <!-- JS -->
       <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
       <script>
-  Highcharts.chart('chart-container', {
-    chart: {
-      type: 'pie',
-      options3d: {
-        enabled: true,
-        alpha: 45,
-        beta: 0
-      }
-    },
-    title: {
-      text: 'Distribusi Pendidikan Penduduk Desa Senuro Timur, 2025'
-    },
-    subtitle: {
-      text: 'Berdasarkan data dalam Kartu Keluarga'
-    },
-    tooltip: {
-      pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b> ({point.y} jiwa)'
-    },
-    accessibility: {
-      point: {
-        valueSuffix: '%'
-      }
-    },
-    plotOptions: {
-      pie: {
-        allowPointSelect: true,
-        cursor: 'pointer',
-        depth: 35,
-        dataLabels: {
-          enabled: true,
-          format: '{point.name}: {point.percentage:.1f}%'
-        }
-      }
-    },
-    series: [{
-      name: 'Persentase',
-      data: [
-        ['Tidak/Belum Sekolah', 44],
-        ['Belum Tamat SD', 24],
-        ['Tamat SD', 167],
-        ['SLTP', 30],
-        ['SLTA', 55],
-        ['Diploma I/II', 2],
-        ['Diploma III/S. Muda', 2],
-        ['Strata I', 14],
-        ['Strata II', 1],
-        ['Belum Mengisi', 931]
-      ]
-    }]
-  });
-</script>
+$(document).ready(function () {
+  $('#dropdownKategori').niceSelect();
+  $('#dropdownSubKategori').niceSelect(); // ← ini penting
 
-        <script>
+  const kategoriData = {
+    bantuan: [
+      "Bantuan Pangan Non Tunai (BPNT)",
+      "Program Keluarga Harapan (PKH)",
+      "Bantuan Langsung Tunai (BLT)"
+    ],
+    pembangunan: [
+      "Pembangunan Jalan",
+      "Pembangunan Irigasi",
+      "Pembangunan Jembatan"
+    ]
+  };
+
+  const $subKategoriSelect = $('#dropdownSubKategori');
+
+  $('#dropdownKategori').on('change', function () {
+    const selected = $(this).val();
+    $subKategoriSelect.html('<option value="">Pilih Subkategori</option>');
+
+    if (selected && kategoriData[selected]) {
+      kategoriData[selected].forEach(function (item) {
+        $subKategoriSelect.append(`<option value="${item}">${item}</option>`);
+      });
+      $subKategoriSelect.prop('disabled', false);
+    } else {
+      $subKategoriSelect.prop('disabled', true);
+    }
+
+    $subKategoriSelect.niceSelect('update'); // ← update tampilannya
+  });
+
+  $('#dropdownKategori').trigger('change');
+});
+
+    
+
+        // Leaflet map
+        const map = L.map('map').setView([-2.895, 104.705], 14); // Ganti koordinat sesuai lokasi
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: '© OpenStreetMap'
+        }).addTo(map);
+        L.marker([-2.895, 104.705])
+        .addTo(map)
+        .bindPopup('<strong>Desa Payakabung</strong><br>Jumlah Penduduk: 1200 Jiwa')
+        .openPopup();
+    </script>
+
+    <script>
     // Data untuk grafik
     const dataGolongan = [
       { name: 'A', y: 0 },
@@ -1421,7 +1414,7 @@
         colorByPoint: true
       }]
     });
-  </script>
+    </script>
 
 
     <script>
@@ -1660,5 +1653,10 @@
         });
     </script>
 
-   </body>
+   
+<script>
+
+</script>
+
+</body>
 </html>
