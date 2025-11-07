@@ -294,11 +294,11 @@
         </div>
     </div>
 
-
     <!-- offcanvas area end -->
     <div class="body-overlay"></div>
     <!-- offcanvas area end -->
-    <main>
+    <main class="all-content">
+
         <!-- moveing-text-area-start -->
         <section class="moveing-text-area">
             <div class="container d-flex align-items-center">
@@ -317,42 +317,430 @@
         </section>
         <!-- moveing-text-area-end -->
 
-        <!-- page-banner-area-start -->
-        <div class="page-banner-area page-banner-height-2" data-background="assets/img/ts-img/1.jpg">
+        <!-- slider-area-start -->
+        <div class="slider-area light-bg-s pt-60">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-12">
-                        <div class="page-banner-content text-center">
-                            <h4 class="breadcrumb-title">Berita Desa</h4>
-                            <div class="breadcrumb-two">
-                                <nav>
-                                    <nav class="breadcrumb-trail breadcrumbs">
-                                        <ul class="breadcrumb-menu">
-                                            <li class="breadcrumb-trail">
-                                                <a href="index.html"><span>Home</span></a>
-                                            </li>
-                                            <li class="trail-item">
-                                                <span>Berita Desa</span>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </nav>
+                    <div class="col-xl-3">
+                        <div class="location-item mb-30">
+                            <div class="location-images mb-20">
+                                <img src="assets/img/contoh.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9">
+                        <div class="swiper-container slider__active pb-30">
+                            <div class="slider-wrapper swiper-wrapper">
+                                <div class="single-slider swiper-slide slider-height d-flex align-items-center"
+                                    data-background="assets/img/ts-img/1.jpg">
+                                    <div class="slider-content slider-content-2">
+                                        <h2 data-animation="fadeInLeft" data-delay="1.7s"
+                                            class="pt-15 slider-title pb-5">Selamat Datang, <br> Website Desa/Kelurahan
+                                        </h2>
+                                        <p class="pr-20 slider_text" data-animation="fadeInLeft" data-delay="1.9s">
+                                            Desa Senuro Timur Kabupaten Ogan Ilir</p>
+                                        <div class="slider-bottom-btn mt-65">
+                                            <a data-animation="fadeInUp" data-delay="1.15s" href="detail-berita.html"
+                                                class="st-btn-border">Selengkapnya</a>
+                                        </div>
+                                    </div>
+                                </div><!-- /single-slider -->
+                                <div class="single-slider swiper-slide slider-height d-flex align-items-center"
+                                    data-background="assets/img/ts-img/3.jpg">
+                                    <div class="slider-content slider-content-2">
+                                        <h2 data-animation="fadeInLeft" data-delay="1.5s"
+                                            class="pt-15 slider-title pb-5">Sport Edition<br> Red Special Edition</h2>
+                                        <p class="pr-20 slider_text" data-animation="fadeInLeft" data-delay="1.8s">Lorem
+                                            ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, ipsam? </p>
+                                        <div class="slider-bottom-btn mt-65">
+                                            <a data-animation="fadeInUp" data-delay="1.10s" href="detail-berita.html"
+                                                class="st-btn-border">Baca Berita ...</a>
+                                        </div>
+                                    </div>
+                                </div><!-- /single-slider -->
+                                <div class="main-slider-paginations"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- page-banner-area-end -->
+        <!-- slider-area-end -->
+
+        <section class="topsell__area-2 pt-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <div class="location-item border bg-light rounded mb-30">
+                            <div class="location-image w-img mb-20">
+                                <img src="assets/img/ts-img/3.jpg" alt="">
+                            </div>
+                            <div class="content p-4">
+                                <h6>Desa Senuro Timur</h6>
+                                <div class="sm-item-loc sm-item-border mb-20">
+                                    <div class="sml-icon mr-20">
+                                        <i class="fal fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="sm-content">
+                                        <span>Alamat :</span>
+                                        <p>Nama Jalan dan Alamat Lengkap </p>
+                                    </div>
+                                </div>
+                                <div class="sm-item-loc sm-item-border mb-20">
+                                    <div class="sml-icon mr-20">
+                                        <i class="fal fa-phone-alt"></i>
+                                    </div>
+                                    <div class="sm-content">
+                                        <span>Telepon :</span>
+                                        <p><a href="#">(+62) 123 456 7890</a></p>
+                                    </div>
+                                </div>
+                                <div class="sm-item-loc mb-20">
+                                    <div class="sml-icon mr-20">
+                                        <i class="fal fa-envelope"></i>
+                                    </div>
+                                    <div class="sm-content">
+                                        <span>Email Resmi :</span>
+                                        <p><a href="#">store@desaku.go.id</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <div class="row">
+                                    <div class="col-xl-4 mb-0">
+                                        <div class="facebook-embed">
+                                            <iframe
+                                                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100091616731742&tabs=timeline&width=320&height=530&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                                width="100%" height="530" style="border:none;overflow:hidden"
+                                                scrolling="no" frameborder="0" allowfullscreen="true"
+                                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                                            </iframe>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-8 mb-0">
+                                        <div class="row">
+                                            <div class="col-xl-12">
+                                                <div class="youtube-embed">
+                                                    <div class="row p-0">
+                                                        <div class="col">
+                                                            <iframe width="100%" height="100"
+                                                                src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                                                                title="YouTube video player" frameborder="0"
+                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                                referrerpolicy="strict-origin-when-cross-origin"
+                                                                allowfullscreen style="border-radius: 8px;">
+                                                            </iframe>
+                                                        </div>
+                                                        <div class="col">
+                                                            <iframe width="100%" height="100"
+                                                                src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                                                                title="YouTube video player" frameborder="0"
+                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                                referrerpolicy="strict-origin-when-cross-origin"
+                                                                allowfullscreen style="border-radius: 8px;">
+                                                            </iframe>
+                                                        </div>
+                                                        <div class="col">
+                                                            <iframe width="100%" height="100"
+                                                                src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                                                                title="YouTube video player" frameborder="0"
+                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                                referrerpolicy="strict-origin-when-cross-origin"
+                                                                allowfullscreen style="border-radius: 8px;">
+                                                            </iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-12 mb-0">
+                                                <blockquote class="tiktok-embed"
+                                                    cite="https://www.tiktok.com/@desasenurotimur"
+                                                    data-unique-id="desasenurotimur" data-embed-type="creator">
+                                                    <section>
+                                                        <a target="_blank"
+                                                            href="https://www.tiktok.com/@desasenurotimur">@desasenurotimur</a>
+                                                    </section>
+                                                </blockquote>
+                                                <script async src="https://www.tiktok.com/embed.js"></script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-9">
+                        <div class="card">
+                            <div class="card-body bg-light">
+                                <h5 class="text-center mb-4">Kunjungi Media Sosial Kami :</h5>
+                                <style>
+                                    .social-media-slider .swiper-slide {
+                                        height: auto !important;
+                                        display: flex !important;
+                                    }
+
+                                    .social-media-slider .swiper-wrapper {
+                                        align-items: stretch !important;
+                                    }
+
+                                    .social-media-slider .social-media-embed {
+                                        display: flex !important;
+                                        flex-direction: column !important;
+                                        width: 100% !important;
+                                        height: 600px !important;
+                                    }
+                                </style>
+
+                                <div class="swiper-container social-media-slider">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="social-media-embed">
+                                                <div class="facebook-embed"
+                                                    style="flex: 1; display: flex; flex-direction: column;">
+                                                    <iframe
+                                                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100091616731742&tabs=timeline&width=320&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                                        width="100%" height="100%" style="border:none;overflow:hidden"
+                                                        scrolling="no" frameborder="0" allowfullscreen="true"
+                                                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                                                    </iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <div class="social-media-embed">
+                                                <div class="instagram-fallback text-center"
+                                                    style="flex: 1; display: flex; flex-direction: column;">
+                                                    <div
+                                                        style="background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); border-radius: 12px; padding: 20px; color: white; height: 100%; display: flex; flex-direction: column; justify-content: center;">
+                                                        <i class="fab fa-instagram fa-4x mb-3"></i>
+                                                        <h4 class="text-white">@senuro_timur</h4>
+                                                        <p class="mb-4 text-white">Ikuti kami untuk update terbaru dari
+                                                            Desa Senuro Timur</p>
+                                                        <a href="https://www.instagram.com/senuro_timur" target="_blank"
+                                                            class="btn btn-light btn-lg">
+                                                            <i class="fab fa-instagram"></i> Follow Instagram
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <div class="social-media-embed">
+                                                <div class="tiktok-embed"
+                                                    style="flex: 1; display: flex; flex-direction: column;">
+                                                    <blockquote class="tiktok-embed"
+                                                        cite="https://www.tiktok.com/@desasenurotimur"
+                                                        data-unique-id="desasenurotimur" data-embed-type="creator"
+                                                        style="height: 100%;">
+                                                        <section>
+                                                            <a target="_blank"
+                                                                href="https://www.tiktok.com/@desasenurotimur">@desasenurotimur</a>
+                                                        </section>
+                                                    </blockquote>
+                                                    <script async src="https://www.tiktok.com/embed.js"></script>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <div class="social-media-embed">
+                                                <div class="youtube-embed"
+                                                    style="flex: 1; overflow-y: auto; padding: 10px;">
+                                                    <div class="mb-3">
+                                                        <iframe width="100%" height="180"
+                                                            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                                                            title="YouTube video player" frameborder="0"
+                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                            referrerpolicy="strict-origin-when-cross-origin"
+                                                            allowfullscreen style="border-radius: 8px;">
+                                                        </iframe>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <iframe width="100%" height="180"
+                                                            src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                                                            title="YouTube video player" frameborder="0"
+                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                            referrerpolicy="strict-origin-when-cross-origin"
+                                                            allowfullscreen style="border-radius: 8px;">
+                                                        </iframe>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <iframe width="100%" height="180"
+                                                            src="https://www.youtube.com/embed/9bZkp7q19f0"
+                                                            title="YouTube video player" frameborder="0"
+                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                            referrerpolicy="strict-origin-when-cross-origin"
+                                                            allowfullscreen style="border-radius: 8px;">
+                                                        </iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+
+                                <script>
+                                    document.addEventListener('DOMContentLoaded', function () {
+                                        var socialMediaSwiper = new Swiper('.social-media-slider', {
+                                            slidesPerView: 1,
+                                            spaceBetween: 20,
+                                            loop: true,
+                                            autoplay: {
+                                                delay: 5000,
+                                                disableOnInteraction: false,
+                                            },
+                                            navigation: {
+                                                nextEl: '.swiper-button-next',
+                                                prevEl: '.swiper-button-prev',
+                                            },
+                                            pagination: {
+                                                el: '.swiper-pagination',
+                                                clickable: true,
+                                            },
+                                            breakpoints: {
+                                                768: {
+                                                    slidesPerView: 2,
+                                                },
+                                                1024: {
+                                                    slidesPerView: 3,
+                                                }
+                                            }
+                                        });
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- features__area-start -->
+        <section class="header__bottom pt-50 pb-50">
+            <div class="container">
+                <div class="row">
+                    <div class="product-bs-slider">
+                        <div class="product-slider swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="product__item clr-1 swiper-slide">
+                                    <div class="box-item items-pds">
+                                        <a href="data-wilayah.html">
+                                            <i class="fal fa-chart-bar"></i>
+                                            Data Wilayah <br> Populasi
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product__item clr-2 swiper-slide">
+                                    <div class="box-item items-pds">
+                                        <a href="#">
+                                            <i class="fal fa-city"></i>
+                                            Pembangunan <br> Desa
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product__item clr-3 swiper-slide">
+                                    <div class="box-item items-pds">
+                                        <a href="galeri.html">
+                                            <i class="fal fa-image-polaroid"></i>
+                                            Galeri <br> Foto Kegiatan
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product__item clr-4 swiper-slide">
+                                    <div class="box-item items-pds">
+                                        <a href="lapak-desa.html">
+                                            <i class="fal fa-person-booth"></i>
+                                            Gerai <br> UMKM
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product__item clr-5 swiper-slide">
+                                    <div class="box-item items-pds">
+                                        <a href="#">
+                                            <i class="fal fa-balance-scale"></i>
+                                            Produk <br> Hukum
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product__item clr-6 swiper-slide">
+                                    <div class="box-item items-pds">
+                                        <a href="#">
+                                            <i class="fal fa-analytics"></i>
+                                            Status <br> SDGs
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product__item clr-7 swiper-slide">
+                                    <div class="box-item items-pds">
+                                        <a href="gol-darah.html">
+                                            <i class="fal fa-dewpoint"></i>
+                                            Golongan <br> Darah
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product__item clr-8 swiper-slide">
+                                    <div class="box-item items-pds">
+                                        <a href="berita.html">
+                                            <i class="fal fa-newspaper"></i>
+                                            Berita <br> Informasi Desa
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product__item clr-9 swiper-slide">
+                                    <div class="box-item items-pds">
+                                        <a href="https://sidesi.oganilirkab.go.id" target="_blank">
+                                            <i class="fal fa-street-view"></i>
+                                            Absensi <br> Geolocations
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product__item clr-10 swiper-slide">
+                                    <div class="box-item items-pds">
+                                        <a href="#">
+                                            <i class="fal fa-people-carry"></i>
+                                            Bantuan <br> Penerima Manfaat
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product__item clr-11 swiper-slide">
+                                    <div class="box-item items-pds">
+                                        <a href="https://lapor.go.id" target="_blank">
+                                            <i class="fal fa-bell-on"></i>
+                                            Lapor <br> Pengaduan Warga
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="bs-button bs-button-prev"><i class="fal fa-chevron-left"></i></div>
+                        <div class="bs-button bs-button-next"><i class="fal fa-chevron-right"></i></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- features__area-end -->
 
         <!-- topsell__area-start -->
-        <section class="topsell__area-2 pt-60 pb-60">
+        <section class="topsell__area-2 pt-15 pb-60">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="section__head d-flex justify-content-between mb-10">
                             <div class="section__title">
-                                <h5 class="st-titile">Berita Desa</h5>
+                                <h5 class="st-titile">Artikel Terkini</h5>
                             </div>
                             <div class="product__nav-tab">
                                 <ul class="nav nav-tabs" id="flast-sell-tab" role="tablist">
@@ -956,116 +1344,6 @@
         </section>
         <!-- topsell__area-end -->
 
-        <!-- featured-start -->
-        <section class="featured light-bg pt-55 pb-40">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="section__head d-flex justify-content-center mb-10">
-                            <div class="section__title">
-                                <h5 class="st-titile">Statistik Desa</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-40">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="services-item mb-30" data-aos="fade-up" data-aos-delay="100">
-                            <div class="services-icon mb-25">
-                                <i class="fal fa-users"></i>
-                            </div>
-                            <h6>Total Penduduk Desa</h6>
-                            <div class="s-count-number">
-                                <span>809.765</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="services-item mb-30" data-aos="fade-up" data-aos-delay="100">
-                            <div class="services-icon mb-25">
-                                <i class="fal fa-male"></i>
-                            </div>
-                            <h6>Penduduk Laki-Laki</h6>
-                            <div class="s-count-number">
-                                <span>406.755</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="services-item mb-30" data-aos="fade-up" data-aos-delay="100">
-                            <div class="services-icon mb-25">
-                                <i class="fal fa-female"></i>
-                            </div>
-                            <h6>Penduduk Perempuan</h6>
-                            <div class="s-count-number">
-                                <span>403.010</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-20">
-                    <div class="col-xl-6 col-lg-12">
-                        <div id="pendudukChart" style="height: 525px;" data-aos="fade-up" data-aos-delay="100"></div>
-                    </div>
-                    <div class="col-xl-6 col-lg-12">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-12">
-                                <div class="banner__item p-relative w-img mb-30" data-aos="fade-up"
-                                    data-aos-delay="100">
-                                    <div class="banner__img">
-                                        <a href="data-wilayah.html"><img src="assets/img/ts-img/wilayah.jpg" alt=""></a>
-                                    </div>
-                                    <a href="data-wilayah.html" type="button"
-                                        class="cart-btn product-modal-sidebar-open-btn d-flex align-items-center justify-content-center w-100">
-                                        Data Wilayah
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-12">
-                                <div class="banner__item p-relative w-img mb-30" data-aos="fade-up"
-                                    data-aos-delay="100">
-                                    <div class="banner__img">
-                                        <a href="pendidikan.html"><img src="assets/img/ts-img/OIP.jpg" alt=""></a>
-                                    </div>
-                                    <a href="pendidikan.html" type="button"
-                                        class="cart-btn product-modal-sidebar-open-btn d-flex align-items-center justify-content-center w-100">
-                                        Data Pendidikan
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-12">
-                                <div class="banner__item p-relative w-img mb-30" data-aos="fade-up"
-                                    data-aos-delay="100">
-                                    <div class="banner__img">
-                                        <a href="pekerjaan.html"><img src="assets/img/ts-img/pekerjaan.jpg" alt=""></a>
-                                    </div>
-                                    <a href="pekerjaan.html" type="button"
-                                        class="cart-btn product-modal-sidebar-open-btn d-flex align-items-center justify-content-center w-100">
-                                        Data Pekerjaan
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-12">
-                                <div class="banner__item p-relative w-img mb-30" data-aos="fade-up"
-                                    data-aos-delay="100">
-                                    <div class="banner__img">
-                                        <a href="usia.html"><img src="assets/img/ts-img/usia.webp" alt=""></a>
-                                    </div>
-                                    <a href="usia.html" type="button"
-                                        class="cart-btn product-modal-sidebar-open-btn d-flex align-items-center justify-content-center w-100">
-                                        Data Usia
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- featured-end -->
-
         <!-- topsell__area-start -->
         <section class="topsell__area-1 pt-30 pb-60">
             <div class="container">
@@ -1161,134 +1439,6 @@
             </div>
         </section>
         <!-- topsell__area-end -->
-
-        <!-- banner__area-start -->
-        <section class="categories__area pt-20 pb-10">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="section__head d-flex justify-content-center mb-10">
-                            <div class="section__title">
-                                <h5 class="st-titile">Layanan Surat Pengantar</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-10">
-                    <div class="col-xl-2">
-                        <div class="card swiper-slide" style="border-radius: 5px;">
-                            <div class="card-header text-center gradient">
-                                <span><i class="fal fa-folders"></i></span> Hari ini
-                            </div>
-                            <div class="card-body text-center">
-                                <span>1</span> <br> <span>Surat</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2">
-                        <div class="card swiper-slide" style="border-radius: 5px;">
-                            <div class="card-header text-center gradient">
-                                <span><i class="fal fa-folders"></i></span> Minggu ini
-                            </div>
-                            <div class="card-body text-center">
-                                <span>1</span> <br> <span>Surat</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2">
-                        <div class="card swiper-slide" style="border-radius: 5px;">
-                            <div class="card-header text-center gradient">
-                                <span><i class="fal fa-folders"></i></span> Bulan ini
-                            </div>
-                            <div class="card-body text-center">
-                                <span>1</span> <br> <span>Surat</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2">
-                        <div class="card swiper-slide" style="border-radius: 5px;">
-                            <div class="card-header text-center gradient">
-                                <span><i class="fal fa-folders"></i></span> Tahun ini
-                            </div>
-                            <div class="card-body text-center">
-                                <span>1</span> <br> <span>Surat</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2">
-                        <div class="card swiper-slide" style="border-radius: 5px;">
-                            <div class="card-header text-center gradient">
-                                <span><i class="fal fa-folders"></i></span> Total Surat
-                            </div>
-                            <div class="card-body text-center">
-                                <span>1</span> <br> <span>Surat</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2">
-                        <div class="card swiper-slide" style="border-radius: 5px;">
-                            <div class="card-header text-center gradient">
-                                <span><i class="fal fa-folders"></i></span> Hari ini
-                            </div>
-                            <div class="card-body text-center">
-                                <span>1</span> <br> <span>Surat</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- banner__area-end -->
-
-        <!-- banner__area-start -->
-        <section class="categories__area pt-50 pb-30">
-            <div class="container area-hr">
-                <div class="row mt-20">
-                    <div class="col-xl-12">
-                        <div class="section__head d-flex justify-content-center mb-10">
-                            <div class="section__title">
-                                <h5 class="st-titile">Perkembangan Penduduk</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="section__head d-flex justify-content-center mb-10">
-                                    <div class="section__title">
-                                        <h5 class="st-titile">Bulan ini</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-30">
-                            <div id="dokChart" style="width:100%; height:500px;" data-aos="fade-up"
-                                data-aos-delay="100"></div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="section__head d-flex justify-content-center mb-10">
-                                    <div class="section__title">
-                                        <h5 class="st-titile">Tahun ini</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-30">
-                            <div id="thnChart" style="width:100%; height:500px;" data-aos="fade-up"
-                                data-aos-delay="100"></div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!-- banner__area-end -->
 
         <!-- recomand-product-area-start -->
         <section class="recomand-product-area pt-60">
@@ -1482,8 +1632,248 @@
         </section>
         <!-- recomand-product-area-end -->
 
+        <!-- featured-start -->
+        <section class="featured light-bg pt-50 pb-40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section__head d-flex justify-content-center mb-10">
+                            <div class="section__title">
+                                <h5 class="st-titile">Statistik Desa</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-40">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="services-item mb-30" data-aos="fade-up" data-aos-delay="100">
+                            <div class="services-icon mb-25">
+                                <i class="fal fa-users"></i>
+                            </div>
+                            <h6>Total Penduduk Desa</h6>
+                            <div class="s-count-number">
+                                <span class="count" data-target="809765">0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="services-item mb-30" data-aos="fade-up" data-aos-delay="100">
+                            <div class="services-icon mb-25">
+                                <i class="fal fa-male"></i>
+                            </div>
+                            <h6>Penduduk Laki-Laki</h6>
+                            <div class="s-count-number">
+                                <span class="count" data-target="406755">0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="services-item mb-30" data-aos="fade-up" data-aos-delay="100">
+                            <div class="services-icon mb-25">
+                                <i class="fal fa-female"></i>
+                            </div>
+                            <h6>Penduduk Perempuan</h6>
+                            <div class="s-count-number">
+                                <span class="count" data-target="403010">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-20">
+                    <div class="col-xl-6 col-lg-12">
+                        <div id="pendudukChart" style="height: 525px;" data-aos="fade-up" data-aos-delay="100"></div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                <div class="banner__item p-relative w-img mb-30" data-aos="fade-up"
+                                    data-aos-delay="100">
+                                    <div class="banner__img">
+                                        <a href="data-wilayah.html"><img src="assets/img/ts-img/wilayah.jpg" alt=""></a>
+                                    </div>
+                                    <a href="data-wilayah.html" type="button"
+                                        class="cart-btn product-modal-sidebar-open-btn d-flex align-items-center justify-content-center w-100">
+                                        Data Wilayah
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                <div class="banner__item p-relative w-img mb-30" data-aos="fade-up"
+                                    data-aos-delay="100">
+                                    <div class="banner__img">
+                                        <a href="pendidikan.html"><img src="assets/img/ts-img/OIP.jpg" alt=""></a>
+                                    </div>
+                                    <a href="pendidikan.html" type="button"
+                                        class="cart-btn product-modal-sidebar-open-btn d-flex align-items-center justify-content-center w-100">
+                                        Data Pendidikan
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                <div class="banner__item p-relative w-img mb-30" data-aos="fade-up"
+                                    data-aos-delay="100">
+                                    <div class="banner__img">
+                                        <a href="pekerjaan.html"><img src="assets/img/ts-img/pekerjaan.jpg" alt=""></a>
+                                    </div>
+                                    <a href="pekerjaan.html" type="button"
+                                        class="cart-btn product-modal-sidebar-open-btn d-flex align-items-center justify-content-center w-100">
+                                        Data Pekerjaan
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                <div class="banner__item p-relative w-img mb-30" data-aos="fade-up"
+                                    data-aos-delay="100">
+                                    <div class="banner__img">
+                                        <a href="usia.html"><img src="assets/img/ts-img/usia.webp" alt=""></a>
+                                    </div>
+                                    <a href="usia.html" type="button"
+                                        class="cart-btn product-modal-sidebar-open-btn d-flex align-items-center justify-content-center w-100">
+                                        Data Usia
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- featured-end -->
+
+        <!-- banner__area-start -->
+        <section class="categories__area pt-50 pb-10">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section__head d-flex justify-content-center mb-10">
+                            <div class="section__title">
+                                <h5 class="st-titile">Layanan Surat Pengantar</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-10">
+                    <div class="col-xl-2">
+                        <div class="card swiper-slide" style="border-radius: 5px;">
+                            <div class="card-header text-center gradient">
+                                <span><i class="fal fa-folders"></i></span> Hari ini
+                            </div>
+                            <div class="card-body text-center">
+                                <span>1</span> <br> <span>Surat</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="card swiper-slide" style="border-radius: 5px;">
+                            <div class="card-header text-center gradient">
+                                <span><i class="fal fa-folders"></i></span> Minggu ini
+                            </div>
+                            <div class="card-body text-center">
+                                <span>1</span> <br> <span>Surat</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="card swiper-slide" style="border-radius: 5px;">
+                            <div class="card-header text-center gradient">
+                                <span><i class="fal fa-folders"></i></span> Bulan ini
+                            </div>
+                            <div class="card-body text-center">
+                                <span>1</span> <br> <span>Surat</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="card swiper-slide" style="border-radius: 5px;">
+                            <div class="card-header text-center gradient">
+                                <span><i class="fal fa-folders"></i></span> Tahun ini
+                            </div>
+                            <div class="card-body text-center">
+                                <span>1</span> <br> <span>Surat</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="card swiper-slide" style="border-radius: 5px;">
+                            <div class="card-header text-center gradient">
+                                <span><i class="fal fa-folders"></i></span> Total Surat
+                            </div>
+                            <div class="card-body text-center">
+                                <span>1</span> <br> <span>Surat</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="card swiper-slide" style="border-radius: 5px;">
+                            <div class="card-header text-center gradient">
+                                <span><i class="fal fa-folders"></i></span> Hari ini
+                            </div>
+                            <div class="card-body text-center">
+                                <span>1</span> <br> <span>Surat</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner__area-end -->
+
+        <!-- banner__area-start -->
+        <section class="categories__area pt-50 pb-30">
+            <div class="container area-hr">
+                <div class="row mt-20">
+                    <div class="col-xl-12">
+                        <div class="section__head d-flex justify-content-center mb-10">
+                            <div class="section__title">
+                                <h5 class="st-titile">Perkembangan Penduduk</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="section__head d-flex justify-content-center mb-10">
+                                    <div class="section__title">
+                                        <h5 class="st-titile">Bulan ini</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-30">
+                            <div id="dokChart" style="width:100%; height:500px;" data-aos="fade-up"
+                                data-aos-delay="100"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="section__head d-flex justify-content-center mb-10">
+                                    <div class="section__title">
+                                        <h5 class="st-titile">Tahun ini</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-30">
+                            <div id="thnChart" style="width:100%; height:500px;" data-aos="fade-up"
+                                data-aos-delay="100"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- banner__area-end -->
+
         <!-- topsell__area-start -->
-        <section class="topsell__area-1 pt-15 pb-50">
+        <section class="topsell__area-1 pt-50 pb-50">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -1499,7 +1889,6 @@
                     <div class="product-bs-slider">
                         <div class="product-slider3 swiper-container mb-50">
                             <div class="swiper-wrapper mt-10 mb-20">
-
                                 <div class="card card-sld swiper-slide" data-aos="fade-up" data-aos-delay="100">
                                     <div class="card-header gradient">
                                         <span><i class="fal fa-folders"></i></span> Arsip Artikel
@@ -1668,7 +2057,7 @@
         </section>
         <!-- cta-area-end -->
 
-        <!-- shop modal start -->
+        <!-- LOGIN modal start -->
         <div class="modal fade" id="productModalId" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered product__modal" role="document">
                 <div class="modal-content">
@@ -1696,6 +2085,196 @@
                                         </div>
                                         <a href="#" class="tp-in-btn w-100">log in</a>
                                     </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- shop modal end -->
+
+        <!-- LOGIN modal start -->
+        <div class="modal fade" id="infoId" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered product__modal" role="document">
+                <div class="modal-content">
+                    <div class="product__modal-wrapper p-relative">
+                        <div class="product__modal-close p-absolute">
+                            <button data-bs-dismiss="modal"><i class="fal fa-times"></i></button>
+                        </div>
+                        <div class="product__modal-inner">
+                            <div class="row pt-40 pb-40">
+
+                                <div class="faq-content pt-0">
+                                    <div class="accordion" id="accordionExample1">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                    aria-expanded="false" aria-controls="collapseOne">
+                                                    Kehadiran di Kantor Desa
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse"
+                                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <div class="product__sm">
+                                                        <ul>
+                                                            <li class="product__sm-item d-flex align-items-center">
+                                                                <div class="product__sm-thumb mr-20">
+                                                                    <a href="#">
+                                                                        <img src="assets/img/ts-img/user1.avif" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="product__sm-content">
+                                                                    <h5 class="product__sm-title">
+                                                                        <a href="#">Nama Kepala Desa</a>
+                                                                    </h5>
+                                                                    <div class="product__sm-price">
+                                                                        <span class="price">Kepala Desa</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="product__sm-item d-flex align-items-center">
+                                                                <div class="product__sm-thumb mr-20">
+                                                                    <a href="#">
+                                                                        <img src="assets/img/ts-img/user2.avif" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="product__sm-content">
+                                                                    <h5 class="product__sm-title">
+                                                                        <a href="#">Nama Aparatur</a>
+                                                                    </h5>
+                                                                    <div class="product__sm-price">
+                                                                        <span class="price">Jabatan</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="product__sm-item d-flex align-items-center">
+                                                                <div class="product__sm-thumb mr-20">
+                                                                    <a href="#">
+                                                                        <img src="assets/img/ts-img/user5.avif" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="product__sm-content">
+                                                                    <h5 class="product__sm-title">
+                                                                        <a href="#">Nama Aparatur</a>
+                                                                    </h5>
+                                                                    <div class="product__sm-price">
+                                                                        <span class="price">Jabatan</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="product__sm-item d-flex align-items-center">
+                                                                <div class="product__sm-thumb mr-20">
+                                                                    <a href="#">
+                                                                        <img src="assets/img/ts-img/user2.avif" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="product__sm-content">
+                                                                    <h5 class="product__sm-title">
+                                                                        <a href="#">Nama Aparatur</a>
+                                                                    </h5>
+                                                                    <div class="product__sm-price">
+                                                                        <span class="price">Jabatan</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="product__sm-item d-flex align-items-center">
+                                                                <div class="product__sm-thumb mr-20">
+                                                                    <a href="#">
+                                                                        <img src="assets/img/ts-img/user3.avif" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="product__sm-content">
+                                                                    <h5 class="product__sm-title">
+                                                                        <a href="#">Nama Aparatur</a>
+                                                                    </h5>
+                                                                    <div class="product__sm-price">
+                                                                        <span class="price">Jabatan</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="product__sm-item d-flex align-items-center">
+                                                                <div class="product__sm-thumb mr-20">
+                                                                    <a href="#">
+                                                                        <img src="assets/img/ts-img/user4.avif" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="product__sm-content">
+                                                                    <h5 class="product__sm-title">
+                                                                        <a href="#">Nama Aparatur</a>
+                                                                    </h5>
+                                                                    <div class="product__sm-price">
+                                                                        <span class="price">Jabatan</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="product__sm-item d-flex align-items-center">
+                                                                <div class="product__sm-thumb mr-20">
+                                                                    <a href="#">
+                                                                        <img src="assets/img/ts-img/user5.avif" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="product__sm-content">
+                                                                    <h5 class="product__sm-title">
+                                                                        <a href="#">Nama Aparatur</a>
+                                                                    </h5>
+                                                                    <div class="product__sm-price">
+                                                                        <span class="price">Jabatan</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div id="collapseTwo" class="accordion-collapse collapse show"
+                                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <img src="assets/img/ts-img/1.jpg" style="height: 300px;" alt="">
+                                                    <div class="product__desc-info">
+                                                        <ul>
+                                                            <li>
+                                                                <h6>Desa</h6>
+                                                                <span>Desa Senuro Timur</span>
+                                                            </li>
+                                                            <li>
+                                                                <h6>Kecamatan</h6>
+                                                                <span>Indralaya</span>
+                                                            </li>
+                                                            <li>
+                                                                <h6>Kabupaten</h6>
+                                                                <span>Ogan Ilir</span>
+                                                            </li>
+                                                            <li>
+                                                                <h6>Provinsi</h6>
+                                                                <span>Sumatera Selatan</span>
+                                                            </li>
+                                                            <li>
+                                                                <h6>Kode Pos</h6>
+                                                                <span>30662</span>
+                                                            </li>
+                                                            <li>
+                                                                <h6>Alamat Kantor</h6>
+                                                                <span>Lorem ipsum dolor sit amet, consectetur
+                                                                    adipisicing elit. Obcaecati, reiciendis</span>
+                                                            </li>
+                                                            <li>
+                                                                <h6>Email</h6>
+                                                                <span>emaildesa@oganilirkab.go.id</span>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" type="button">Titik Lokasi</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1827,7 +2406,7 @@
                 labels: {
                     formatter: function () {
                         return this.value.toLocaleString(
-                        'id-ID'); // tampilkan angka penuh dengan format lokal
+                            'id-ID'); // tampilkan angka penuh dengan format lokal
                     }
                 }
             },
@@ -1872,7 +2451,8 @@
             },
             xAxis: {
                 categories: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov',
-                    'Des'],
+                    'Des'
+                ],
                 crosshair: true,
                 title: {
                     text: 'Bulan'
@@ -1932,7 +2512,8 @@
             },
             xAxis: {
                 categories: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov',
-                    'Des'],
+                    'Des'
+                ],
                 crosshair: true,
                 title: {
                     text: 'Bulan'
@@ -2000,6 +2581,44 @@
             mirror: true // true: animasi juga aktif saat scroll ke atas
         });
     </script>
+
+    <script>
+        const counters = document.querySelectorAll('.count');
+        const duration = 2000; // durasi animasi (ms)
+        const delay = 5000; // jeda sebelum animasi diulang (ms)
+
+        function startCounter(counter) {
+            const target = +counter.getAttribute('data-target');
+            let current = 0;
+
+            const increment = target / (duration / 20);
+
+            function updateCount() {
+                if (current < target) {
+                    current += increment;
+                    counter.innerText = Math.ceil(current).toLocaleString('id-ID');
+                    setTimeout(updateCount, 20);
+                } else {
+                    counter.innerText = target.toLocaleString('id-ID');
+
+                    // Ulangi animasi setelah delay
+                    setTimeout(() => {
+                        counter.innerText = '0';
+                        startCounter(counter);
+                    }, delay);
+                }
+            }
+
+            updateCount();
+        }
+
+        // Jalankan semua counter
+        counters.forEach(counter => {
+            startCounter(counter);
+        });
+    </script>
+
+
 
 </body>
 
